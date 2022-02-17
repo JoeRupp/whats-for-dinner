@@ -4,7 +4,60 @@
     <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
   </head>
   <body>
-    
+    <header>
+      <h1>
+        What's for Dinner?
+      </h1>
+      <button class="add-recipe-btn">
+        ADD A RECIPE
+      </button>
+    </header>
+    <section class="boxes">
+      <section class="menu">
+        <h2 class="prompt">
+          What are you looking for?
+        </h2>
+        <section class="form">
+          <div>
+            <input type="radio" name="menu-form" id="side">
+            <label for="side">Side</label>
+          </div><br>
+          <div>
+            <input type="radio" name="menu-form" id="main">
+            <label for="main">Main Dish</label>
+          </div><br>
+          <div>
+            <input type="radio" name="menu-form" id="dessert">
+            <label for="dessert">Dessert</label>
+          </div><br>
+          <div>
+            <input type="radio" name="menu-form" id="meal">
+            <label for="meal">Entire Meal</label>
+          </div><br>
+        </section>
+        <button class="lets-cook-btn">
+          LET'S COOK!
+        </button>
+      </section>
+      <section class="meal">
+        <img src="./assets/cookpot.svg">
+        <section class="meal-output hidden">
+          <div class="meal-text">
+            <p>
+              <em>You should make:</em>
+            </p>
+            <h2>
+              <strong>meal name</strong>
+            </h2>
+          </div>
+          <div class="clear-btn-position">
+            <button class="clear-btn">
+              CLEAR
+            </button>
+          </div>
+        </section>
+      </section>
+    </section>
   </body>
   <script type="text/javascript" src="main.js"></script>
 </html>
