@@ -103,7 +103,7 @@ img {
   width: auto;
 }
 
-.meal-output {
+.hidden {
   display: none;
 }
 
@@ -114,6 +114,10 @@ img {
   justify-content: center;
   align-items: center;
   flex-direction: column;
+}
+
+.random-dish {
+  text-align: center;
 }
 
 .clear-btn-position {
