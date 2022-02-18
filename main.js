@@ -34,10 +34,11 @@ function generateMeal() {
   }
 }
 
-function addRecipe() {
-
+function clearMeal() {
+  crockPot.classList.remove('hidden');
+  mealOutput.classList.add('hidden');
 }
 
-function clearMeal() {
+function addRecipe() {
 
 }

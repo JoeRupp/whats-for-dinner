@@ -44,6 +44,10 @@ h1 {
   border-radius: 4px;
 }
 
+.add-recipe-btn:hover {
+  background-color: #06736e;
+  color: white;
+}
 
 /* BODY ----------------------------------- */
 
@@ -86,6 +90,11 @@ h1 {
   margin-left: 50px;
   background-color: #0fb9b1;
   border: 0px;
+}
+
+.lets-cook-btn:hover {
+  background-color: #06736e;
+  color: white;
 }
 
 .meal {
@@ -137,4 +146,8 @@ img {
   border: 0px;
   margin-right: 20px;
   margin-bottom: 20px;
+}
+
+.clear-btn:hover {
+  background-color: #0fb9b1;
 }
