@@ -1,5 +1,6 @@
 # What's for Dinner?
 
+
 ### Description
 What's for dinner? The ultimate question. This site helps the user decide by generating random meal options based on what type of dish the user is looking for.
 
@@ -9,6 +10,7 @@ Clicking the 'Add a Recipe' button in the top right corner will have a footer po
 
 The original spec for this project can be found [here](https://frontend.turing.io/projects/module-1/dinner.html).
 
+
 ### Instructions to run locally
 1. clone this repo.
 2. `cd` into the directory
@@ -17,13 +19,16 @@ The original spec for this project can be found [here](https://frontend.turing.i
 ### Deploy Link
 Check it out [here](https://joerupp.github.io/whats-for-dinner/)
 
+
 ###Contributors
 [Joe Rupp](https://github.com/JoeRupp)
+
 
 ### Technologies
 - Javascript
 - CSS
 - HTML
+
 
 ### Future Additions
 - Create feature that accounts for more versatile user input when adding recipe.
