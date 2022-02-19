@@ -20,7 +20,7 @@ The original spec for this project can be found [here](https://frontend.turing.i
 Check it out [here](https://joerupp.github.io/whats-for-dinner/)
 
 
-###Contributors
+### Contributors
 [Joe Rupp](https://github.com/JoeRupp)
 
 
