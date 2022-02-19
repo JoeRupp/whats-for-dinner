@@ -28,13 +28,13 @@ body {
 
 header {
   background-color: #0fb9b1;
+  border: 0px;
   height: 60px;
+  padding-left: 35px;
+  padding-right: 35px;
   display: flex;
   justify-content: space-between;
   align-items: center;
-  border: 0px;
-  padding-left: 35px;
-  padding-right: 35px;
 }
 
 h1 {
@@ -92,10 +92,10 @@ h1 {
 .lets-cook-btn {
   height: 30px;
   width: 165px;
+  border: 0px;
   border-radius: 4px;
   margin-left: 50px;
   background-color: #0fb9b1;
-  border: 0px;
 }
 
 .lets-cook-btn:hover {
@@ -142,12 +142,12 @@ img {
 }
 
 .clear-btn {
-  height: 30px;
-  width: 80px;
-  border-radius: 4px;
   color: white;
   background-color: #95a5a6;
+  height: 30px;
+  width: 80px;
   border: 0px;
+  border-radius: 4px;
   margin-right: 20px;
   margin-bottom: 20px;
 }
@@ -163,27 +163,27 @@ footer {
   height: 4.5rem;
   width: 100%;
   padding-left: 35px;
+  border: 0px;
   position: absolute;
   bottom: 0;
   display: flex;
   justify-content: space-evenly;
   flex-direction: row;
   align-items: center;
-  border: 0px;
 }
 
 .add-new-btn {
-  height: 30px;
-  width: 85px;
-  border-radius: 4px;
-  margin-left: 50px;
   background-color: #0fb9b1;
   border: 0px;
+  border-radius: 4px;
+  height: 30px;
+  width: 85px;
+  margin-left: 50px;
 }
 
 .add-new-btn:hover {
-  background-color: #06736e;
   color: white;
+  background-color: #06736e;
 }
 
 .empty-space {
