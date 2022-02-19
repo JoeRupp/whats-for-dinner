@@ -1,23 +1,33 @@
 # What's for Dinner?
 
-## Overview
+### Description
+What's for dinner? The ultimate question. This site helps the user decide by generating random meal options based on what type of dish the user is looking for.
 
-What's for dinner? The ultimate question. You will be building an app that helps users choose a recipe and put together meals. 
+There are four dish options: side, main dish, dessert, and entire meal. Selecting one of these and clicking 'Let's Cook' will generate a random meal in the box to the right side of the page. The user can then click the 'Let's Cook' button again to generate new options. A 'Clear' button is also available if the user wishes to clear the current selection.
 
-This Solo Challenge gives students and instructors the opportunity to get a pulse on where you are with the foundational concepts of Module 1 curriculum. Students should use this as an opportunity to challenge themselves and work completely independently. Google can (and probably should!) be used, but any other code base should not be referenced. Instructors will be able to use your work, both completion of functionality and code quality, to determine where you stand and if you are behind for this point in the module, provide supports to intervene.
+Clicking the 'Add a Recipe' button in the top right corner will have a footer pop-up at the bottom of the page with input options. The user can then add their own recipe name and type (side, main dish or dessert). If the user inputs a dish type that is not available, an error message will appear. Clicking the 'Add New' button will populate the user's input into the meal box area, and add their dish to the appropriate list so it can be generated in the future.
 
-The spec for this project can be found [here](https://frontend.turing.io/projects/module-1/dinner.html). 
+The original spec for this project can be found [here](https://frontend.turing.io/projects/module-1/dinner.html).
 
-## Learning Goals
+### Instructions to run locally
+1. clone this repo.
+2. `cd` into the directory
+3. run `open index.html`
 
-- Gain experience building an application that utilizes HTML, CSS and JavaScript
-- Write HTML and CSS to match a provided comp
-- Understand how to listen to and respond to user events
-- Individualize your programming skill set
+### Deploy Link
+Check it out [here](https://joerupp.github.io/whats-for-dinner/)
 
-## Setup
+###Contributors
+[Joe Rupp](https://github.com/JoeRupp)
 
-- Fork this project to your own Github account
-- Clone the repository to your local machine
-- `cd` into the project
-- Read this README thoroughly, then begin working!
+### Technologies
+- Javascript
+- CSS
+- HTML
+
+### Future Additions
+- Create feature that accounts for more versatile user input when adding recipe.
+- Add login page with personalized greeting.
+- Allow user to favorite recipes and save them for later.
+- Improved CSS - animate crockpot, better button responsiveness, background image changes depending dish type selection.
+- Add more dish options to meal lists.
